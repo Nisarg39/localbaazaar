@@ -14,7 +14,28 @@ export const metadata = {
     noindex: false,
     noarchive: false
   },
-  icon: "/favicon.ico"
+  icon: {
+    src: "/favicon.ico",
+    sizes: "16x16 32x32 48x48 64x64 128x128 256x256",
+    type: "image/x-icon"
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://localbaazaar.com",
+    title: "Local Baazaar - Local Retailers At Your Service Just One Click Away",
+    description: "Local Baazaar is a Communication App that allows Customer to communicate with Local Retailers in a very simple way and help's you select Best Deal For Free",
+    defaultImage: "https://localbaazaar.com/logo.png",
+    site_name: "Local Baazaar",
+    images: [
+      {
+        url: "https://localbaazaar.com/logo.png",
+        width: 800,
+        height: 400,
+        alt: "Local Baazaar - Local Retailers At Your Service Just One Click Away"
+      }
+    ]
+  }
 };
 
 export default function RootLayout({ children }) {
