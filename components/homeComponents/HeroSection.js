@@ -14,10 +14,10 @@ export default function HeroSection(){
             </div>
             <div className="w-full md:w-1/2 px-6 md:px-16 flex flex-col items-start justify-center py-12 md:h-screen"> 
                 <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-center md:text-left text-gray-800 leading-tight">
-                    Connect with <span className="text-blue-600">Local Markets</span>
+                    Connect with <span className="text-blue-600">Local Retailers</span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl mb-10 text-center md:text-left text-gray-700 leading-relaxed">
-                    Local Baazaar is a revolutionary communication app connecting Buyers and to available Local Retailers with one click !!!
+                    Local Baazaar is an App that allows Customer to communicate with Local Retailers in a very simple way and help's you select Best Deal For Free
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 mt-8 w-full justify-center md:justify-start">
                     <button className="bg-black text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full flex items-center justify-center border border-white transition duration-300 ease-in-out transform hover:scale-105 hover:bg-gray-800 shadow-lg">
