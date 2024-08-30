@@ -4,8 +4,8 @@ export default function RetailerGuide(){
     return(
         <section className="flex flex-col items-center justify-center w-full min-h-screen bg-gradient-to-b from-black to-gray-900 py-16">
             <h2 
-            className="text-4xl md:text-5xl lg:text-7xl font-extrabold mb-8 md:mb-12 lg:mb-16 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-red-500 flex items-center justify-center animate-pulse">
-                RETAILER'S GUIDE
+            className="text-4xl md:text-5xl lg:text-7xl font-extrabold mb-8 md:mb-12 lg:mb-16 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-red-500 flex items-center justify-center">
+                RETAILER's GUIDE
             </h2>
             <div className="flex items-center justify-center max-w-6xl w-full">
                 <div className="flex flex-col items-center">

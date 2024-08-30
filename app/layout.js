@@ -35,7 +35,10 @@ export const metadata = {
         alt: "Local Baazaar - Local Retailers At Your Service Just One Click Away"
       }
     ]
-  }
+  },
+  keywords: [
+    
+  ]
 };
 
 export default function RootLayout({ children }) {

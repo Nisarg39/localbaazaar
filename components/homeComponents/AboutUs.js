@@ -10,50 +10,47 @@ export default function AboutUs() {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-start justify-center">
           <div className="md:w-1/2 md:pr-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-yellow-400 animate-pulse">ABOUT US</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-yellow-400">ABOUT US</h2>
             <p className="text-center md:text-left max-w-2xl mb-12 text-gray-300 leading-relaxed text-base md:text-lg">
-              LocalBaazaar is your one-stop destination for authentic local
-              products. Founded in 2023, we connect artisans and small businesses
-              with customers who appreciate unique, handcrafted goods. Our mission
-              is to preserve traditional crafts while empowering local
-              communities.
+              Local Baazaar is an Indian Startup originating from Pune. Founded in 2023, we connect small businesses (Retailers)
+              with Customers using unique way of communication and with more privacy. Our mission is to provide equal opportunities to every Local Retail Business.
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-8 mb-12">
-              <div className="text-center bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-                <h3 className="font-semibold text-3xl md:text-4xl mb-2 text-yellow-400">
+            <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
+              <div className="text-center bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+                <h3 className="font-semibold text-2xl md:text-3xl mb-1 text-yellow-400">
                   500+
                 </h3>
-                <p className="text-sm md:text-base text-gray-300">Retailers</p>
+                <p className="text-xs md:text-sm text-gray-300">Retailers</p>
               </div>
-              <div className="text-center bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-                <h3 className="font-semibold text-3xl md:text-4xl mb-2 text-yellow-400">
+              <div className="text-center bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+                <h3 className="font-semibold text-2xl md:text-3xl mb-1 text-yellow-400">
                   50+
                 </h3>
-                <p className="text-sm md:text-base text-gray-300">Categories</p>
+                <p className="text-xs md:text-sm text-gray-300">Categories</p>
               </div>
-              <div className="text-center bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
-                <h3 className="font-semibold text-3xl md:text-4xl mb-2 text-yellow-400">
+              <div className="text-center bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:scale-105">
+                <h3 className="font-semibold text-2xl md:text-3xl mb-1 text-yellow-400">
                   10,000+
                 </h3>
-                <p className="text-sm md:text-base text-gray-300">Happy Customers</p>
+                <p className="text-xs md:text-sm text-gray-300">Happy Customers</p>
               </div>
             </div>
-            <div className="text-center bg-gray-800 p-4 rounded-lg shadow-lg border-2 border-yellow-400 mb-12 hover:border-yellow-300 transition-colors duration-300">
-              <h3 className="font-semibold text-xl md:text-2xl mb-2 text-yellow-400">
+            <div className="text-center bg-gray-800 p-3 rounded-lg shadow-lg border-2 border-yellow-400 mb-8 hover:border-yellow-300 transition-colors duration-300">
+              <h3 className="font-semibold text-lg md:text-xl mb-1 text-yellow-400">
                 Our Address
               </h3>
-              <p className="text-sm md:text-base text-gray-300">
-                123 Main Street, Cityville, State 12345
+              <p className="text-xs md:text-sm text-gray-300">
+                Wanowrie, Pune - 40, Maharashtra, India
               </p>
-              <div className="mt-2">
-                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 text-xs md:text-sm underline">
+              <div className="mt-1">
+                <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 text-xs underline">
                   View on Map
                 </a>
               </div>
             </div>
           </div>
           <div className="w-full md:w-1/2 h-full flex flex-col items-start justify-center">
-            <h3 className="text-3xl md:text-4xl font-bold mb-8 text-yellow-400 animate-pulse">CONTACT US</h3>
+            <h3 className="text-3xl md:text-4xl font-bold mb-8 text-yellow-400">CONTACT US</h3>
             <form className="w-full space-y-4">
               <div>
                 <label htmlFor="name" className="block text-yellow-400 mb-1 text-sm md:text-base">Name</label>
