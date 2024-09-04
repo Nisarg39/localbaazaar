@@ -10,7 +10,7 @@ export default function AboutUs() {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col md:flex-row items-start justify-center">
           <div className="md:w-1/2 md:pr-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-yellow-400">ABOUT US</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-8  text-yellow-400 ">ABOUT US</h2>
             <p className="text-center md:text-left max-w-2xl mb-12 text-gray-300 leading-relaxed text-base md:text-lg">
               Local Baazaar is an Indian Startup originating from Pune. Founded in 2023, we connect small businesses (Retailers)
               with Customers using unique way of communication and with more privacy. Our mission is to provide equal opportunities to every Local Retail Business.
