@@ -12,7 +12,7 @@ export default function AboutUs() {
           <div className="md:w-1/2 md:pr-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-8  text-yellow-400 ">ABOUT US</h2>
             <p className="text-center md:text-left max-w-2xl mb-12 text-gray-300 leading-relaxed text-base md:text-lg">
-              Local Baazaar is an Indian Startup originating from Pune. Founded in 2023, we connect small businesses (Retailers)
+              Shop Radar is an Indian Startup originating from Pune. Founded in 2023, we connect small businesses (Retailers)
               with Customers using unique way of communication and with more privacy. Our mission is to provide equal opportunities to every Local Retail Business.
             </p>
             <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
@@ -105,7 +105,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="text-center mt-8 text-gray-400 text-xs md:text-sm">
-          © {new Date().getFullYear()} LocalBaazaar. All rights reserved.
+          © {new Date().getFullYear()} ShopRadar. All rights reserved.
         </div>
       </div>
     </section>

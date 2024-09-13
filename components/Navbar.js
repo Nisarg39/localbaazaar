@@ -22,7 +22,7 @@ export default function Navbar() {
     <nav className="p-4 bg-black">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white font-bold text-xl">
-          <Image src="/Local_Baazaar.png" alt="Local_Baazaar" width={50} height={50} />
+          <Image src="/Shop_Radar.png" alt="Shop Radar" width={50} height={50} />
         </div>
         <div className="md:hidden">
           <button className="text-white focus:outline-none" onClick={toggleMenu}>

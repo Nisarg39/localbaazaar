@@ -10,7 +10,7 @@ export default function HeroSection(){
                             Connect with your <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Nearby Stores</span>
                         </h1>
                         <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-10 max-w-2xl mx-auto lg:mx-0">
-                            Local Baazaar simplifies communication with nearby stores, helping you find the best deals for your needs.
+                            Shop Radar simplifies communication with nearby stores, helping you find the best deals for your needs.
                         </p>
                         <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-6 justify-center lg:justify-start">
                             <button className="bg-white text-indigo-900 px-6 sm:px-8 py-3 sm:py-4 rounded-full flex items-center justify-center transition duration-300 ease-in-out transform hover:scale-105 hover:bg-gray-100 shadow-lg hover:shadow-xl">
@@ -26,8 +26,8 @@ export default function HeroSection(){
                     <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
                         <div className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[32rem] lg:h-[32rem]">
                             <Image
-                                src="/Local_Baazaar.png"
-                                alt="Local Baazaar"
+                                src="/Shop_Radar.png"
+                                alt="Shop Radar"
                                 layout="fill"
                                 objectFit="contain"
                                 className="filter drop-shadow-2xl transition-transform duration-300 hover:scale-110"
