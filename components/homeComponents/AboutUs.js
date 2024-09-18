@@ -71,13 +71,13 @@ export default function AboutUs() {
                 <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
                   <Image src="https://cdn-icons-png.flaticon.com/128/3536/3536445.png" width={36} height={36} alt="WhatsApp" className="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12" />
                 </a>
-                <a href="https://www.instagram.com/localbaazaar" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
+                <a href="https://www.instagram.com/shopradar.in/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
                   <Image src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" width={36} height={36} alt="Instagram" className="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12" />
                 </a>
-                <a href="mailto:info@localbaazaar.com" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
+                <a href="mailto:support@shopradar.in" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
                   <Image src="https://cdn-icons-png.flaticon.com/128/2965/2965306.png" width={36} height={36} alt="Email" className="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12" />
                 </a>
-                <a href="https://www.facebook.com/localbaazaar" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
+                <a href="https://www.facebook.com/profile.php?id=61566025555323" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-200 transition duration-300 transform hover:scale-110">
                   <Image src="https://cdn-icons-png.flaticon.com/128/733/733547.png" width={36} height={36} alt="Facebook" className="w-6 h-6 md:w-8 md:h-8 lg:w-12 lg:h-12" />
                 </a>
               </div>
