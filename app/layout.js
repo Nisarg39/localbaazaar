@@ -14,10 +14,19 @@ export const metadata = {
     noindex: false,
     noarchive: false
   },
-  icon: {
-    src: "/favicon.ico",
-    sizes: "16x16 32x32 48x48 64x64 128x128 256x256",
-    type: "image/x-icon"
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-64x64.png", sizes: "64x64", type: "image/png" },
+      { url: "/favicon-128x128.png", sizes: "128x128", type: "image/png" },
+      { url: "/favicon-256x256.png", sizes: "256x256", type: "image/png" }
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png" }
+    ]
   },
   openGraph: {
     type: "website",
@@ -44,6 +53,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={inter.className}>
       <div className="fixed top-0 left-0 right-0 z-50">
         <Navbar />
